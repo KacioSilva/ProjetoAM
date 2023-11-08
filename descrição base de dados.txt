@@ -1,0 +1,23 @@
+subject# - Número inteiro que identifica exclusivamente cada indivíduo
+
+age - idade do indivíduo
+
+sex - '0' - homem / '1' - mulher
+
+test_time - Tempo desde o recrutamento para o ensaio. A parte inteira é o número de dias desde o recrutamento. 
+
+motor_UPDRS - Pontuação UPDRS motora do médico, interpolada linearmente
+
+total_UPDRS - Pontuação UPDRS total do médico, interpolada linearmente
+
+Jitter(%),Jitter(Abs),Jitter:RAP,Jitter:PPQ5,Jitter:DDP - Diversas medidas de variação na frequência fundamental
+
+Shimmer,Shimmer(dB),Shimmer:APQ3,Shimmer:APQ5,Shimmer:APQ11,Shimmer:DDA - Diversas medidas de variação de amplitude
+
+NHR,HNR - Duas medidas de relação entre ruído e componentes tonais na voz
+
+RPDE - Uma medida de complexidade dinâmica não linear
+
+DFA - Expoente de escala fractal de sinal
+
+PPE - Uma medida não linear da variação da frequência fundamental
